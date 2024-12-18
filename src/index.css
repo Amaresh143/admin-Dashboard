@@ -1,0 +1,22 @@
+.sidebar-menu .treeview.active > a {
+  background-color: #007bff; /* Blue background for selected */
+  color: white; /* White text color */
+}
+
+.sidebar-menu .treeview-menu .active > a {
+  background-color: #28a745; /* Green background for nested active items */
+  color: white; /* White text color */
+}
+
+/* Optional: Style the hover state for better UX */
+.sidebar-menu .treeview > a:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+.sidebar-menu .treeview-menu > li > a:hover {
+  background-color: #218838; /* Darker green for nested menu items */
+}
+.active > a {
+  background-color: #28a745; /* Green background for nested active items */
+  color: white; /* White text color */
+}
