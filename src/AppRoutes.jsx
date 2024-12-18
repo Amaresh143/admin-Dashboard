@@ -4,6 +4,7 @@ import Events from "./pages/Events";
 import Settings from "./pages/Settings";
 import SimpleCrud from "./pages/jsonCrudSimple/SimpleCrud";
 import Accordion from "./pages/accordion/Accordion";
+import Counter from "./pages/counter/Counter";
 
 const AppRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const AppRoutes = () => {
       <Route path="/operation/Accordion" element={<Accordion />} />
       <Route path="/events" element={<Events />} />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/operation/counter" element={<Counter/>} />
     </Routes>
   );
 };

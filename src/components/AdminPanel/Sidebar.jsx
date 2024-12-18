@@ -114,6 +114,16 @@ const Sidebar = () => {
                   <i className="fa fa-circle-o" /> Crud
                 </Link>
               </li>
+
+              <li className={selectedMenu === "Counter" ? "active" : ""}>
+                <Link
+                  to="/operation/counter"
+                  onClick={() => handleSelect("Counter")}
+                >
+                  <i className="fa fa-circle-o" /> Counter
+                </Link>
+              </li>
+
               <li className={selectedMenu === "Accordion" ? "active" : ""}>
                 <Link
                   to="/operation/Accordion"
